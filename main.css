@@ -1,0 +1,30 @@
+.row {
+    position: relative;
+}
+
+.form-control {
+
+    /* width: 100%; */
+    border: 3px solid #00B4CC;
+    /* border-right: none; */
+    /* padding: 20px; */
+    /* height: 20px; */
+    border-radius: 5px 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.btn-custom {
+    background-color: #00B4CC;
+    /* border-right: none; */
+    /* padding: 20px; */
+    /* height: 20px; */
+    /* border-radius: 5px 5px; */
+    /* color: #fff; */
+    color: #fff
+}
+
+.btn-custom:hover {
+    color: #fff;
+    background: #212121;
+}
