@@ -22,7 +22,7 @@
 <body>
 
   <div class="container">
-    <form id="form" class="form py-5 my-5">
+    <form id="form" class="form py-5 my-5" onsubmit="searchHistoryList()">
       <div class="row">
         <div class="col-sm-10">
           <div class="form-group">
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-2">
-          <button type="button" class="btn btn-custom btn-block"> <span class="d-inline-block d-sm-none">Search</span>
+          <button type="button" class="btn btn-custom btn-block" id="search-btn"> <span class="d-inline-block d-sm-none">Search</span>
             <i class="fa fa-search"></i></button>
         </div>
       </div>
